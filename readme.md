@@ -6,7 +6,7 @@ Minimalna wymagana wersja skryptów to 4.7
 ## Instalacja
 
 ```
-/zainstaluj_plugin https://codeload.github.com/Delwing/arkadia-imie-util/zip/master
+/zainstaluj_plugin https://codeload.github.com/Delwing/arkadia-imie-utils/zip/master
 ```
 
 ## Użytkowanie
