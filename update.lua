@@ -23,7 +23,6 @@ function imie.update:fix(name)
         end
         destination:close()
         scripts:print_log("Plik " .. name .. ".txt zostal zaktualizowany")
-
     else
         scripts:print_log("Nie moge zaktualizowac pliku " .. name .. ".txt, wykonaj aktualizacje recznie")
     end

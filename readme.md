@@ -20,3 +20,4 @@ Pokaże różnicę pomiędzy plikiem `imie_postaci.txt`, a aktulanym plikiem `im
 /imie_update imie_postaci
 ```
 Zaktualizuje plik postaci to nowego formatu (nie zmieni wartości, nie doda nowych pól, zlikwiduje komunikat o starym pliku imie.txt)
+Przed aktualizacja wykona backup aktualnego pliku to do pliku `imie_postaci_backup.txt`
