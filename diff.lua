@@ -1,5 +1,5 @@
 imie.diff = imie.diff or {
-    dir = getMudletHomeDir() .. "/plugins/imie-utils/"
+    dir = getMudletHomeDir() .. "/plugins/arkadia-imie-utils/"
 }
 
 imie.diff.file_url = "file:///" .. imie.diff.dir .. "/display/index.html"
