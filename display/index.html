@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Diff</title>
+    <meta charset="UTF-8">
+    <script src="diff_match_patch.js"></script>
+    <script src="configs.js"></script>
+    <link href="bootstrap.min.css" rel="stylesheet" type="text/css">
+    <link href="style.css" rel="stylesheet" type="text/css">
+</head>
+<body>
+<div class="diff">
+    <script>
+        var dmp = new diff_match_patch();
+        var diff = dmp.diff_main(configs.source, configs.current);
+        dmp.diff_cleanupSemantic(diff)
+        let diffs = dmp.diff_prettyHtml(diff);
+        document.writeln(diffs.replaceAll("&para;", ""));
+    </script>
+</div>
+</body>
+</html>
