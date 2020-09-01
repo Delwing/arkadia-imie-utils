@@ -11,6 +11,13 @@
 			<packageName></packageName>
 			<regex>^/diff (.*)</regex>
 		</Alias>
+		<Alias isActive="yes" isFolder="no">
+			<name>diff</name>
+			<script>imie.update:fix(matches[2])</script>
+			<command></command>
+			<packageName></packageName>
+			<regex>^/imie_update (.*)</regex>
+		</Alias>
 	</AliasPackage>
 	<ActionPackage />
 	<ScriptPackage />

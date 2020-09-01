@@ -1,3 +1,6 @@
 imie = imie or {}
 
-return { "diff" }
+return {
+    "update",
+    "diff"
+}
